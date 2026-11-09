@@ -1,0 +1,150 @@
+
+# =====================================
+# PYTHON
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dll
+
+# =====================================
+# VIRTUAL ENVIRONMENTS
+# =====================================
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+venv.bak/
+env.bak/
+
+# =====================================
+# ENVIRONMENT VARIABLES / SECRETS
+# =====================================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# =====================================
+# PYTHON PACKAGING
+# =====================================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =====================================
+# TESTING / COVERAGE
+# =====================================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+.cache/
+.hypothesis/
+
+# =====================================
+# TYPE CHECKERS / LINTERS
+# =====================================
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.dmypy.json
+.pyright/
+
+# =====================================
+# JUPYTER NOTEBOOKS
+# =====================================
+.ipynb_checkpoints/
+
+# =====================================
+# LOGS / TEMPORARY FILES
+# =====================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# =====================================
+# IDE / EDITORS
+# =====================================
+.vscode/
+.idea/
+.history/
+*.sublime-workspace
+*.sublime-project
+
+# =====================================
+# RAG / AI GENERATED DATA
+# =====================================
+chroma_db/
+chroma_data/
+vector_db/
+faiss_index/
+embeddings/
+indexes/
+storage/
+
+# =====================================
+# UPLOADS / GENERATED DOCUMENTS
+# =====================================
+uploads/
+generated/
+*.pdf
+*.docx
+
+# =====================================
+# DATABASE FILES
+# =====================================
+*.db
+*.sqlite
+*.sqlite3
+
+# =====================================
+# OS FILES - WINDOWS
+# =====================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# =====================================
+# OS FILES - MAC
+# =====================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =====================================
+# GIT
+# =====================================
+*.orig
+
+
+
+# Python virtual environments (any directory level)
+**/venv/
+**/.venv/
+**/myenv/
+**/env/
+**/ENV/
+**/virtualenv/
