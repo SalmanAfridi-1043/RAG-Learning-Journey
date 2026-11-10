@@ -1,11 +1,14 @@
 [project]
-name = "day3"
+name = "02llm-integration"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi>=0.162.2",
+    "google-genai>=3.0.0",
+    "openai>=3.48.0",
+    "pydantic>=2.14.3",
     "python-dotenv>=1.2.4",
-    "openai>=3.24.0",
-    "pydantic>=2.13.5",
+    "uvicorn>=0.54.0",
 ]
