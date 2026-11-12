@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Salman",
+    "age": 22,
+    "country": "Pakistan",
+    "profession": "Software engineer",
+    "skills": ["python", "C++", "management", "team work"]
+  },
+  {
+    "name": "Afridi",
+    "age": 19,
+    "country": "France",
+    "profession": "Mechanical engineer",
+    "skills": ["AutoCad", "Solid Work", "management", "Graphics Design"]
+  },
+  {
+    "name": "Unknown",
+    "age": 0,
+    "country": "Unknown",
+    "profession": "Unknown",
+    "skills": []
+  }
+]

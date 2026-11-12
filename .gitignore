@@ -98,7 +98,6 @@ vector_db/
 faiss_index/
 embeddings/
 indexes/
-storage/
 
 # =====================================
 # UPLOADS / GENERATED DOCUMENTS
